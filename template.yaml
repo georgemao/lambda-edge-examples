@@ -16,3 +16,7 @@ Resources:
       Handler: apigwRedirect.handler
       Runtime: nodejs6.10
       Timeout: 3
+      Environment:
+        Variables:
+          PROTECTED_URL: https://08tquh0p3k.execute-api.us-west-2.amazonaws.com/test/api
+          OPEN_URL: https://035rxrltw7.execute-api.us-east-2.amazonaws.com/test/api

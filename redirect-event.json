@@ -21,6 +21,12 @@
                   "value": "Test Agent",
                   "key": "User-Agent"
                 }
+              ],
+              "auth":[
+                {
+                  "value":"valid!",
+                  "key": "Auth"
+                }
               ]
             },
             "clientIp": "2001:cdba::3257:9652",
